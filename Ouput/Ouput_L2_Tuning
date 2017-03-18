@@ -1,0 +1,145 @@
+16/11/06 20:01:09 INFO cluster.YarnScheduler: Removed TaskSet 193.0, whose tasks have all completed, from pool 
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: ResultStage 193 (count at /home/agaikwad/Metrics_L2.py:118) finished in 0.050 s
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Job 171 finished: count at /home/agaikwad/Metrics_L2.py:118, took 0.061697 s
+Model 1:
+Accuracy = 0.829521829522
+Model 2:
+16/11/06 20:01:09 INFO spark.SparkContext: Starting job: count at /home/agaikwad/Metrics_L2.py:123
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Got job 172 (count at /home/agaikwad/Metrics_L2.py:123) with 2 output partitions
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Final stage: ResultStage 194 (count at /home/agaikwad/Metrics_L2.py:123)
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Parents of final stage: List()
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Missing parents: List()
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Submitting ResultStage 194 (PythonRDD[469] at count at /home/agaikwad/Metrics_L2.py:123), which has no missing parents
+16/11/06 20:01:09 INFO memory.MemoryStore: Block broadcast_325 stored as values in memory (estimated size 108.3 KB, free 364.4 MB)
+16/11/06 20:01:09 INFO memory.MemoryStore: Block broadcast_325_piece0 stored as bytes in memory (estimated size 34.4 KB, free 364.4 MB)
+16/11/06 20:01:09 INFO storage.BlockManagerInfo: Added broadcast_325_piece0 in memory on 192.168.1.254:41796 (size: 34.4 KB, free: 365.7 MB)
+16/11/06 20:01:09 INFO spark.SparkContext: Created broadcast 325 from broadcast at DAGScheduler.scala:1012
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ResultStage 194 (PythonRDD[469] at count at /home/agaikwad/Metrics_L2.py:123)
+16/11/06 20:01:09 INFO cluster.YarnScheduler: Adding task set 194.0 with 2 tasks
+16/11/06 20:01:09 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 194.0 (TID 2759, node12, partition 1, PROCESS_LOCAL, 5447 bytes)
+16/11/06 20:01:09 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 194.0 (TID 2760, node4, partition 0, PROCESS_LOCAL, 5447 bytes)
+16/11/06 20:01:09 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 2759 on executor id: 7 hostname: node12.
+16/11/06 20:01:09 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 2760 on executor id: 10 hostname: node4.
+16/11/06 20:01:09 INFO storage.BlockManagerInfo: Added broadcast_325_piece0 in memory on node4:47320 (size: 34.4 KB, free: 3.0 GB)
+16/11/06 20:01:09 INFO storage.BlockManagerInfo: Added broadcast_325_piece0 in memory on node12:58826 (size: 34.4 KB, free: 3.0 GB)
+16/11/06 20:01:09 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 194.0 (TID 2759) in 54 ms on node12 (1/2)
+16/11/06 20:01:09 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 194.0 (TID 2760) in 53 ms on node4 (2/2)
+16/11/06 20:01:09 INFO cluster.YarnScheduler: Removed TaskSet 194.0, whose tasks have all completed, from pool 
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: ResultStage 194 (count at /home/agaikwad/Metrics_L2.py:123) finished in 0.055 s
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Job 172 finished: count at /home/agaikwad/Metrics_L2.py:123, took 0.068601 s
+16/11/06 20:01:09 INFO spark.SparkContext: Starting job: count at /home/agaikwad/Metrics_L2.py:123
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Got job 173 (count at /home/agaikwad/Metrics_L2.py:123) with 2 output partitions
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Final stage: ResultStage 195 (count at /home/agaikwad/Metrics_L2.py:123)
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Parents of final stage: List()
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Missing parents: List()
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Submitting ResultStage 195 (PythonRDD[470] at count at /home/agaikwad/Metrics_L2.py:123), which has no missing parents
+16/11/06 20:01:09 INFO memory.MemoryStore: Block broadcast_326 stored as values in memory (estimated size 106.5 KB, free 364.3 MB)
+16/11/06 20:01:09 INFO memory.MemoryStore: Block broadcast_326_piece0 stored as bytes in memory (estimated size 33.1 KB, free 364.2 MB)
+16/11/06 20:01:09 INFO storage.BlockManagerInfo: Added broadcast_326_piece0 in memory on 192.168.1.254:41796 (size: 33.1 KB, free: 365.7 MB)
+16/11/06 20:01:09 INFO spark.SparkContext: Created broadcast 326 from broadcast at DAGScheduler.scala:1012
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ResultStage 195 (PythonRDD[470] at count at /home/agaikwad/Metrics_L2.py:123)
+16/11/06 20:01:09 INFO cluster.YarnScheduler: Adding task set 195.0 with 2 tasks
+16/11/06 20:01:09 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 195.0 (TID 2761, node4, partition 0, PROCESS_LOCAL, 5447 bytes)
+16/11/06 20:01:09 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 195.0 (TID 2762, node12, partition 1, PROCESS_LOCAL, 5447 bytes)
+16/11/06 20:01:09 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 2761 on executor id: 10 hostname: node4.
+16/11/06 20:01:09 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 2762 on executor id: 7 hostname: node12.
+16/11/06 20:01:09 INFO storage.BlockManagerInfo: Added broadcast_326_piece0 in memory on node4:47320 (size: 33.1 KB, free: 3.0 GB)
+16/11/06 20:01:09 INFO storage.BlockManagerInfo: Added broadcast_326_piece0 in memory on node12:58826 (size: 33.1 KB, free: 3.0 GB)
+16/11/06 20:01:09 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 195.0 (TID 2762) in 46 ms on node12 (1/2)
+16/11/06 20:01:09 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 195.0 (TID 2761) in 47 ms on node4 (2/2)
+16/11/06 20:01:09 INFO cluster.YarnScheduler: Removed TaskSet 195.0, whose tasks have all completed, from pool 
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: ResultStage 195 (count at /home/agaikwad/Metrics_L2.py:123) finished in 0.049 s
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Job 173 finished: count at /home/agaikwad/Metrics_L2.py:123, took 0.060753 s
+Accuracy = 0.829521829522
+Model 3:
+16/11/06 20:01:09 INFO spark.SparkContext: Starting job: count at /home/agaikwad/Metrics_L2.py:128
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Got job 174 (count at /home/agaikwad/Metrics_L2.py:128) with 2 output partitions
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Final stage: ResultStage 196 (count at /home/agaikwad/Metrics_L2.py:128)
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Parents of final stage: List()
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Missing parents: List()
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Submitting ResultStage 196 (PythonRDD[471] at count at /home/agaikwad/Metrics_L2.py:128), which has no missing parents
+16/11/06 20:01:09 INFO memory.MemoryStore: Block broadcast_327 stored as values in memory (estimated size 107.0 KB, free 364.1 MB)
+16/11/06 20:01:09 INFO memory.MemoryStore: Block broadcast_327_piece0 stored as bytes in memory (estimated size 34.1 KB, free 364.1 MB)
+16/11/06 20:01:09 INFO storage.BlockManagerInfo: Added broadcast_327_piece0 in memory on 192.168.1.254:41796 (size: 34.1 KB, free: 365.6 MB)
+16/11/06 20:01:09 INFO spark.SparkContext: Created broadcast 327 from broadcast at DAGScheduler.scala:1012
+16/11/06 20:01:09 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ResultStage 196 (PythonRDD[471] at count at /home/agaikwad/Metrics_L2.py:128)
+16/11/06 20:01:09 INFO cluster.YarnScheduler: Adding task set 196.0 with 2 tasks
+16/11/06 20:01:09 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 196.0 (TID 2763, node10, partition 0, RACK_LOCAL, 5447 bytes)
+16/11/06 20:01:09 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 196.0 (TID 2764, node8, partition 1, RACK_LOCAL, 5447 bytes)
+16/11/06 20:01:09 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 2763 on executor id: 8 hostname: node10.
+16/11/06 20:01:09 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 2764 on executor id: 2 hostname: node8.
+16/11/06 20:01:09 INFO storage.BlockManagerInfo: Added broadcast_327_piece0 in memory on node8:46460 (size: 34.1 KB, free: 3.0 GB)
+16/11/06 20:01:09 INFO storage.BlockManagerInfo: Added broadcast_327_piece0 in memory on node10:48670 (size: 34.1 KB, free: 3.0 GB)
+16/11/06 20:01:11 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 196.0 (TID 2763) in 1943 ms on node10 (1/2)
+16/11/06 20:01:12 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 196.0 (TID 2764) in 2332 ms on node8 (2/2)
+16/11/06 20:01:12 INFO cluster.YarnScheduler: Removed TaskSet 196.0, whose tasks have all completed, from pool 
+16/11/06 20:01:12 INFO scheduler.DAGScheduler: ResultStage 196 (count at /home/agaikwad/Metrics_L2.py:128) finished in 2.333 s
+16/11/06 20:01:12 INFO scheduler.DAGScheduler: Job 174 finished: count at /home/agaikwad/Metrics_L2.py:128, took 2.347297 s
+16/11/06 20:01:12 INFO spark.SparkContext: Starting job: count at /home/agaikwad/Metrics_L2.py:128
+16/11/06 20:01:12 INFO scheduler.DAGScheduler: Got job 175 (count at /home/agaikwad/Metrics_L2.py:128) with 2 output partitions
+16/11/06 20:01:12 INFO scheduler.DAGScheduler: Final stage: ResultStage 197 (count at /home/agaikwad/Metrics_L2.py:128)
+16/11/06 20:01:12 INFO scheduler.DAGScheduler: Parents of final stage: List()
+16/11/06 20:01:12 INFO scheduler.DAGScheduler: Missing parents: List()
+16/11/06 20:01:12 INFO scheduler.DAGScheduler: Submitting ResultStage 197 (PythonRDD[472] at count at /home/agaikwad/Metrics_L2.py:128), which has no missing parents
+16/11/06 20:01:12 INFO memory.MemoryStore: Block broadcast_328 stored as values in memory (estimated size 105.4 KB, free 364.0 MB)
+16/11/06 20:01:12 INFO memory.MemoryStore: Block broadcast_328_piece0 stored as bytes in memory (estimated size 32.8 KB, free 364.0 MB)
+16/11/06 20:01:12 INFO storage.BlockManagerInfo: Added broadcast_328_piece0 in memory on 192.168.1.254:41796 (size: 32.8 KB, free: 365.6 MB)
+16/11/06 20:01:12 INFO spark.SparkContext: Created broadcast 328 from broadcast at DAGScheduler.scala:1012
+16/11/06 20:01:12 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ResultStage 197 (PythonRDD[472] at count at /home/agaikwad/Metrics_L2.py:128)
+16/11/06 20:01:12 INFO cluster.YarnScheduler: Adding task set 197.0 with 2 tasks
+16/11/06 20:01:12 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 197.0 (TID 2765, node11, partition 0, RACK_LOCAL, 5447 bytes)
+16/11/06 20:01:12 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 197.0 (TID 2766, node2, partition 1, RACK_LOCAL, 5447 bytes)
+16/11/06 20:01:12 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 2765 on executor id: 3 hostname: node11.
+16/11/06 20:01:12 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 2766 on executor id: 5 hostname: node2.
+16/11/06 20:01:12 INFO storage.BlockManagerInfo: Added broadcast_328_piece0 in memory on node2:42995 (size: 32.8 KB, free: 3.0 GB)
+16/11/06 20:01:12 INFO storage.BlockManagerInfo: Added broadcast_328_piece0 in memory on node11:42370 (size: 32.8 KB, free: 3.0 GB)
+16/11/06 20:01:13 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 197.0 (TID 2766) in 1727 ms on node2 (1/2)
+16/11/06 20:01:14 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 197.0 (TID 2765) in 2010 ms on node11 (2/2)
+16/11/06 20:01:14 INFO cluster.YarnScheduler: Removed TaskSet 197.0, whose tasks have all completed, from pool 
+16/11/06 20:01:14 INFO scheduler.DAGScheduler: ResultStage 197 (count at /home/agaikwad/Metrics_L2.py:128) finished in 2.012 s
+16/11/06 20:01:14 INFO scheduler.DAGScheduler: Job 175 finished: count at /home/agaikwad/Metrics_L2.py:128, took 2.023209 s
+Accuracy = 0.831453634085
+16/11/06 20:01:14 INFO spark.SparkContext: Invoking stop() from shutdown hook
+16/11/06 20:01:14 INFO server.ServerConnector: Stopped ServerConnector@69d4c138{HTTP/1.1}{0.0.0.0:4041}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@4d10ed49{/stages/stage/kill,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@30d091c0{/api,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@7fd0007e{/,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@32323b40{/static,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@542a7fe3{/executors/threadDump/json,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@4ee7cc9d{/executors/threadDump,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@26b3719c{/executors/json,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@7c31c1ef{/executors,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@636ccda7{/environment/json,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@620b8972{/environment,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@72962f8b{/storage/rdd/json,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@5df2d944{/storage/rdd,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@66febc27{/storage/json,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@1722b2a6{/storage,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@a447fce{/stages/pool/json,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@7caa999{/stages/pool,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@19b055b4{/stages/stage/json,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@2050d5d{/stages/stage,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@89d19be{/stages/json,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@3bbd4b56{/stages,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@1c8c3ffe{/jobs/job/json,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@26d9ab87{/jobs/job,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@e2c0b5{/jobs/json,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@4c7e6fdf{/jobs,null,UNAVAILABLE}
+16/11/06 20:01:14 INFO ui.SparkUI: Stopped Spark web UI at http://192.168.1.254:4041
+16/11/06 20:01:14 INFO cluster.YarnClientSchedulerBackend: Interrupting monitor thread
+16/11/06 20:01:14 INFO cluster.YarnClientSchedulerBackend: Shutting down all executors
+16/11/06 20:01:14 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+16/11/06 20:01:14 INFO cluster.SchedulerExtensionServices: Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+16/11/06 20:01:14 INFO cluster.YarnClientSchedulerBackend: Stopped
+16/11/06 20:01:14 INFO spark.MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+16/11/06 20:01:14 INFO memory.MemoryStore: MemoryStore cleared
+16/11/06 20:01:14 INFO storage.BlockManager: BlockManager stopped
+16/11/06 20:01:14 INFO storage.BlockManagerMaster: BlockManagerMaster stopped
+16/11/06 20:01:14 INFO scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+16/11/06 20:01:14 INFO spark.SparkContext: Successfully stopped SparkContext
+16/11/06 20:01:14 INFO util.ShutdownHookManager: Shutdown hook called
+16/11/06 20:01:14 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-dd9fd0d0-2429-4356-90bc-0a221b0ea7ed
+16/11/06 20:01:14 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-dd9fd0d0-2429-4356-90bc-0a221b0ea7ed/pyspark-4834ca94-4c1b-4c2b-a087-7d44dad5c629

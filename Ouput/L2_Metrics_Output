@@ -1,0 +1,13 @@
+Model 1:
+Accuracy 1 = 0.829521829522
+Model 2:
+Accuracy 2 = 0.829521829522
+Model 3:
+Accuracy 3 = 0.831453634085
+
+Test Data Metrics on Best model:
+Accuracy = 0.831453634085
+FPR = 0
+Area under ROC = 0.513972036317
+
+# I have trimmed the output to clearly show the metrics

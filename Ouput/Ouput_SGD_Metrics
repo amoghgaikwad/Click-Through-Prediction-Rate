@@ -1,0 +1,22 @@
+Accuracy = 0.831453634085
+FPR = 0
+Area under ROC = 0.530511565624
+
+16/11/06 21:17:30 INFO ui.SparkUI: Stopped Spark web UI at http://192.168.1.254:4044
+16/11/06 21:17:30 INFO cluster.YarnClientSchedulerBackend: Interrupting monitor thread
+16/11/06 21:17:30 INFO cluster.YarnClientSchedulerBackend: Shutting down all executors
+16/11/06 21:17:30 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+16/11/06 21:17:30 INFO cluster.SchedulerExtensionServices: Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+16/11/06 21:17:30 INFO cluster.YarnClientSchedulerBackend: Stopped
+16/11/06 21:17:30 INFO spark.MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+16/11/06 21:17:30 INFO memory.MemoryStore: MemoryStore cleared
+16/11/06 21:17:30 INFO storage.BlockManager: BlockManager stopped
+16/11/06 21:17:30 INFO storage.BlockManagerMaster: BlockManagerMaster stopped
+16/11/06 21:17:30 INFO scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+16/11/06 21:17:30 INFO spark.SparkContext: Successfully stopped SparkContext
+16/11/06 21:17:30 INFO util.ShutdownHookManager: Shutdown hook called
+16/11/06 21:17:30 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-6ececc44-06fa-4f6f-a592-c84afa2ce22c/pyspark-fcf41e12-aebc-4c0f-b9a0-9f9f70fc0cb5
+16/11/06 21:17:30 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-6ececc44-06fa-4f6f-a592-c84afa2ce22c
